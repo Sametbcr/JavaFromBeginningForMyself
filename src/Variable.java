@@ -1,4 +1,5 @@
 import javax.swing.plaf.synth.SynthOptionPaneUI;
+import java.util.Scanner;
 
 public class Variable {
     public static void main(String[] args) {
@@ -85,6 +86,56 @@ public class Variable {
 
         System.out.println(!(25<15));  // normalde 25<15 false gelecek. önünde değil olduğundan true geldi.
         */
+
+        /*
+        // Arttırma ,  Azaltma Operatörleri
+        //  ++  ,  --
+
+        int a = 10, sonuc;
+
+        sonuc = ++a;
+        System.out.println(sonuc);   // a'yı önce arttırdı, sonra sonuc değişkenine atadı.
+        System.out.println(a);
+
+        int b = 8, sonuc2;
+
+        sonuc2 = b++;
+        System.out.println(b);      // b'yi önce sonuc2 değişkenine atadı, sonra 1 arttırdı.
+        System.out.println(sonuc2);
+        */
+
+        /*
+        // Kullanıcıdan Değer Alma
+
+        System.out.print("Lütfen değişkene atanmasını istediğiniz sayıyı giriniz: ");  // Kullanıcıyı sayı girmesi için yönlendirdik
+
+        Scanner input = new Scanner(System.in);   //  Scanner class'ını import ettik. Class'tan input adında bir obje türettik. Sonra Class'ı newledik.
+        int number = input.nextInt();             //  Girilecek input değerini integer olarak number değişkenine atadık.
+        System.out.println("Girilen Sayı: "+number);
+
+        input.close();  //   Objeyi kapattık.
+
+        //  1-> burada önemli olan atayacağımız değişkeni de girilmesinin istediğimiz veri tipinde tanımlamalıyız.
+
+        //  2-> String değer alacaksak
+        String adSoyad = input.next();       // Kullanıcı boşluk atarsa boşluğa kadar olan kısmı alır.
+        String adSoyad2 = input.nextLine();   // Enter basılana kadarki tüm değerleri alır.
+        */
+
+        /*
+        // Kullanıcıdan Double vb değer alma
+        System.out.println("Lütfen küsüratlı bir sayı giriniz: ");
+
+        Scanner kusurluSayi = new Scanner(System.in);
+        float sayi1= kusurluSayi.nextFloat();
+        System.out.println("Girilen Sayı :"+sayi1);
+        kusurluSayi.close();
+                            // Burada dikkatimi çeken şey: Ekrana sayıyı virgüllü girmesi gerekiyor kullanıcının.
+
+         */
+
+
+
 
 
 
