@@ -134,10 +134,14 @@ public class Variable {
 
          */
 
-
-
-
-
+        /*
+        //İlk karakteri yakalamak için aşağıdaki gibi ilerlerim.
+        System.out.print("Lütfen bir karakter giriniz: ");
+        Scanner input = new Scanner(System.in);
+        char karakter = input.next().charAt(0);
+        System.out.println("Girilen Karakter: " + karakter);
+        input.close();
+        */
 
     }
 }
