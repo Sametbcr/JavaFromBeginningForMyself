@@ -6,7 +6,9 @@ public class Variable {
         /*
          *  /n bir alt satıra iner.
          *  /t bir TAB kadar boşluk bırakır.
+         * // Önemli detay: ters slaş ile String içerisindeki " işaretini yazdırabiliriz.
          *
+         *  System.out.println("Kedi \"Miyav!\" dedi."); //normalde ilk 2 çift tırnağı alıp arasını almayacaktı ama şuan ekrana bastı hepsini.
          *  */
 
         /*
