@@ -101,9 +101,12 @@ public class CyclesAndConditions {
         System.out.println(message);
         */
 
-
-
-
+        /*
+        // İç İçe Turnery operatör kullanımı Örnek:
+        int x = 6, y = 7, z = 8, max;
+        max = (x >= y) ? ((x >= z) ?  x :  z) : ((y>=z) ? y : z);
+        System.out.println(max);
+        */
 
 
     }
