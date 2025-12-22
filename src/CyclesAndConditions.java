@@ -51,7 +51,7 @@ public class CyclesAndConditions {
         }
         */
 
-
+        /*
         // Üniversitede Vize ve Final notları üzerinden Kaldı geçti durumu veren bir uygulama ;
         double vize, finel, ortalama;
         int sinir;
@@ -75,6 +75,36 @@ public class CyclesAndConditions {
         else {
             System.out.println("Ortalamanız "+sinir+" sınır notunun altında. Malesef dersi geçemediniz.");
         }
+        input.close();
+        */
+
+        /*
+        // Ternary operator
+        //Örneğin 50den yukarı alınca dersi geçsin öğrenci durumu için Ternary biçimde yazalım.
+
+        Scanner input = new Scanner(System.in);
+        double puan = input.nextDouble();
+
+        String sonuc = (puan >= 50) ? "Dersi geçtiniz." : "Dersten kaldınız.";
+
+        System.out.println(sonuc);
+
+        input.close();
+        */
+
+        /*
+        Scanner input = new Scanner(System.in);
+        System.out.print("Yaşınızı giriniz: ");
+        int yas = input.nextInt();
+
+        String message = (yas >= 18) ? "Dikkatli sürün." : "Araba sürmeye uygun değilsiniz!";
+        System.out.println(message);
+        */
+
+
+
+
+
 
     }
 
